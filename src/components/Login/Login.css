@@ -1,0 +1,71 @@
+.form-container{
+   width: 500px;
+   height: 600px;
+   margin: 100px auto;
+   border: 1px solid #95A0A7;
+   border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+   /* padding-left: 40px; */
+   text-align: center;
+}
+
+.form-title{
+   font-family: 'Lato';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 35px;
+   line-height: 42px;
+   letter-spacing: 0.0025em;
+   color: #2A414F;
+}
+
+.form-control label{
+   padding-left: 40px;
+   text-align: left;
+   display: block;
+   font-size: 17px;
+   line-height:20px;
+   letter-spacing: 0.0015em;
+   margin-bottom: 10px;
+}
+.form-control input{
+   width: 415px;
+   height: 55px;
+   border: 1px solid #95A0A7;
+   border-radius: 5px;
+   font-size: 1.5em;
+   padding-left: 10px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+   margin-bottom: 10px;
+}
+
+.btn-submit{
+   height: 55px;
+   width: 415px;
+   background: rgba(255, 153, 0, 0.3);
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+   border: unset;
+   line-height: 25px;
+   letter-spacing: 0.0015em;
+   color: #0E161A;
+   font-size: 21px;
+   margin-top: 40px;
+}
+.btn-submit:hover{
+   background: rgba(255, 153, 0, 0.6);
+
+}
+
+.text-error{
+   color: red;
+}
